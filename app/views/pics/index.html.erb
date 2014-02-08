@@ -1,14 +1,16 @@
-<div class="trans-box">
-	<h2>
-		<% @pics.each do |pic| %>
+
+<% @pics.each do |pic| %>
+	<div class=" span2 text-center trans-box">
+		<h1 class ="custom-font">
 			Hour: <%= pic.hour %>
+		</h1>
+		<h2>
 			<br />
 			Emotion: <%= pic.emotion %>
 			<br />
-			Learned: <%= pic.learned %>
 			<br />
-
-
-		<% end %>
-	</h2>
-<div>
+			Learned: <%= pic.learned %>
+		</h2>
+	</div>
+<% end %>
+	
