@@ -1,8 +1,8 @@
 /*This site was hacked together by Lara.*/
 
 .trans-box {
-	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.50);
-	background-color: rgba(36,32,33,0.50);
+	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.55);
+	background-color: rgba(36,32,33,0.55);
 	padding: 3%;
 	margin-top: 55px;
 }
@@ -33,4 +33,12 @@ h2 {
 	font-size: 18px;
 	line-height: 20px;
 
+}
+
+label {
+	color: white;
+	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
+	font-weight: 200;
+	font-size: 18px;
+	line-height: 20px;
 }
