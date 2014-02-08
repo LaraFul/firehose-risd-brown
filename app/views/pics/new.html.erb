@@ -1,0 +1,13 @@
+<div class="trans-box">
+	<h2>
+		NEW
+		<%= simple_form_for @pic do |f| %>
+			<%= f.input :hour %>
+			<%= f.input :emotion %>
+			<%= f.input :learned %>
+
+			<%= f.submit 'Save' %>
+
+		<% end %>
+	</h2>
+</div>
